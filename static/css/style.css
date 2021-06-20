@@ -1,0 +1,90 @@
+@font-face {
+  font-family: Metropolis;
+  src: url(../fonts/Metropolis-Regular.otf);
+}
+
+@font-face {
+  font-family: Metropolis;
+  src: url(../fonts/Metropolis-Medium.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Metropolis;
+  src: url(../fonts/Metropolis-Bold.otf);
+  font-weight: 700;
+}
+
+body {
+  font-family: "Metropolis", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 100px 0px;
+}
+
+.features .feature-item {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.features .feature-item .feature-icon {
+  background-color: #0061f2 !important;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.features .feature-item .feature-icon svg {
+  color: white;
+}
+
+.hero {
+  background: -webkit-gradient(linear, left top, left bottom, from(#0061f2), to(rgba(105, 0, 199, 0.8)));
+  background: linear-gradient(#0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.hero .button-primary svg {
+  margin-top: -2px;
+  font-size: 0.875rem;
+}
+
+.button-primary {
+  color: white;
+  background-color: #00ba94;
+  padding: 0.875rem 1.125rem;
+  border-radius: 0.25rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.col-lg-6 {
+  background-color: #212832;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
